@@ -25,18 +25,18 @@ The journey is divided into weekly milestones(tentative), culminating in a compr
 
 The repository is organized by algorithm categories and frameworks:
 
-📁 **ML-DL-Algorithms-From-Scratch**
-├── 📁 **NumPy**
-│   ├── `Linear_Regression.py`
-│   ├── `Logistic_Regression.py`
-│   ├── `Decision_Trees.py`
-│   └── ...
-├── 📁 **PyTorch**
-│   ├── `Neural_Network.py`
-│   ├── `CNN.py`
-│   ├── `LSTM.py`
-│   └── ...
-└── 📁 **Documentation**
+📁 **ML-DL-Algorithms-From-Scratch**  
+├── 📁 **NumPy**  
+│   ├── `Linear_Regression.py`  
+│   ├── `Logistic_Regression.py`  
+│   ├── `Decision_Trees.py`  
+│   └── ...  
+├── 📁 **PyTorch**  
+│   ├── `Neural_Network.py`  
+│   ├── `CNN.py`  
+│   ├── `LSTM.py`  
+│   └── ...  
+└── 📁 **Documentation**  
     └── `README.md` (this file)
 
 
