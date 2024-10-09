@@ -17,6 +17,7 @@ class LinearRegression:
     
     @staticmethod
     def _compute_cost(x, y, beta):
+        #cost function is MSE
         m = x.shape[0]
         predictions = x.dot(beta)
         cost = (1/(2*m)) * np.sum(np.square(predictions - y))
@@ -45,7 +46,6 @@ X = np.random.rand(100,2)
 true_beta = np.array([5, 3, 2]).reshape(-1,1)
 # y = 3x1 + 2x2+ 5
 y = X.dot(true_beta[1:]) + true_beta[0] + np.random.normal(0, 1, size=(100, 1))
-test_input = np.random.rand(20, 2)
 
 lr = LinearRegression(X, y)
 cost_history = lr.fit(0.01, 1000)
